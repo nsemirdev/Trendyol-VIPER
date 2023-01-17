@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2DF2CF4D2976C93B00412878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF4C2976C93B00412878 /* AppDelegate.swift */; };
 		2DF2CF4F2976C93B00412878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */; };
-		2DF2CF512976C93B00412878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF502976C93B00412878 /* ViewController.swift */; };
 		2DF2CF562976C93D00412878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2CF552976C93D00412878 /* Assets.xcassets */; };
 		2DF2CF592976C93D00412878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2CF572976C93D00412878 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		2DF2CF492976C93B00412878 /* Trendyol-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trendyol-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF2CF4C2976C93B00412878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DF2CF502976C93B00412878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DF2CF552976C93D00412878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DF2CF582976C93D00412878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DF2CF5A2976C93D00412878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +33,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DD5A2A92976CABF001E8C99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2CF572976C93D00412878 /* LaunchScreen.storyboard */,
+				2DF2CF5A2976C93D00412878 /* Info.plist */,
+				2DF2CF552976C93D00412878 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DD5A2AA2976CAC4001E8C99 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2CF4C2976C93B00412878 /* AppDelegate.swift */,
+				2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2DD5A2AC2976CAD0001E8C99 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		2DF2CF402976C93B00412878 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +78,9 @@
 		2DF2CF4B2976C93B00412878 /* Trendyol-VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				2DF2CF4C2976C93B00412878 /* AppDelegate.swift */,
-				2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */,
-				2DF2CF502976C93B00412878 /* ViewController.swift */,
-				2DF2CF552976C93D00412878 /* Assets.xcassets */,
-				2DF2CF572976C93D00412878 /* LaunchScreen.storyboard */,
-				2DF2CF5A2976C93D00412878 /* Info.plist */,
+				2DD5A2AC2976CAD0001E8C99 /* Scenes */,
+				2DD5A2AA2976CAC4001E8C99 /* App */,
+				2DD5A2A92976CABF001E8C99 /* Resources */,
 			);
 			path = "Trendyol-VIPER";
 			sourceTree = "<group>";
@@ -134,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF2CF512976C93B00412878 /* ViewController.swift in Sources */,
 				2DF2CF4D2976C93B00412878 /* AppDelegate.swift in Sources */,
 				2DF2CF4F2976C93B00412878 /* SceneDelegate.swift in Sources */,
 			);
