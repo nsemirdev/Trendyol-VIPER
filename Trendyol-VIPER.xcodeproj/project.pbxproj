@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DD5A2B42976CBA4001E8C99 /* TYHomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5A2B32976CBA4001E8C99 /* TYHomeFeedViewController.swift */; };
+		2DD5A2B62976CBB7001E8C99 /* TYTrendyolGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5A2B52976CBB7001E8C99 /* TYTrendyolGoViewController.swift */; };
+		2DD5A2B82976CBC2001E8C99 /* TYFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5A2B72976CBC2001E8C99 /* TYFavoritesViewController.swift */; };
+		2DD5A2BA2976CBCD001E8C99 /* TYBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5A2B92976CBCD001E8C99 /* TYBasketViewController.swift */; };
+		2DD5A2BC2976CBD7001E8C99 /* TYAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5A2BB2976CBD7001E8C99 /* TYAccountViewController.swift */; };
 		2DF2CF4D2976C93B00412878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF4C2976C93B00412878 /* AppDelegate.swift */; };
 		2DF2CF4F2976C93B00412878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */; };
 		2DF2CF562976C93D00412878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2CF552976C93D00412878 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DD5A2B32976CBA4001E8C99 /* TYHomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeFeedViewController.swift; sourceTree = "<group>"; };
+		2DD5A2B52976CBB7001E8C99 /* TYTrendyolGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTrendyolGoViewController.swift; sourceTree = "<group>"; };
+		2DD5A2B72976CBC2001E8C99 /* TYFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYFavoritesViewController.swift; sourceTree = "<group>"; };
+		2DD5A2B92976CBCD001E8C99 /* TYBasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBasketViewController.swift; sourceTree = "<group>"; };
+		2DD5A2BB2976CBD7001E8C99 /* TYAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYAccountViewController.swift; sourceTree = "<group>"; };
 		2DF2CF492976C93B00412878 /* Trendyol-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trendyol-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF2CF4C2976C93B00412878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +65,101 @@
 		2DD5A2AC2976CAD0001E8C99 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2DD5A2B22976CB90001E8C99 /* Core */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2DD5A2AD2976CB5F001E8C99 /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2C12976CBF7001E8C99 /* View */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		2DD5A2AE2976CB66001E8C99 /* TrendyolGo */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2C02976CBF0001E8C99 /* View */,
+			);
+			path = TrendyolGo;
+			sourceTree = "<group>";
+		};
+		2DD5A2AF2976CB6D001E8C99 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2BF2976CBEA001E8C99 /* View */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		2DD5A2B02976CB7C001E8C99 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2BE2976CBE3001E8C99 /* View */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		2DD5A2B12976CB88001E8C99 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2BD2976CBDD001E8C99 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2DD5A2B22976CB90001E8C99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2B12976CB88001E8C99 /* Account */,
+				2DD5A2B02976CB7C001E8C99 /* Basket */,
+				2DD5A2AF2976CB6D001E8C99 /* Favorites */,
+				2DD5A2AE2976CB66001E8C99 /* TrendyolGo */,
+				2DD5A2AD2976CB5F001E8C99 /* HomeFeed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2DD5A2BD2976CBDD001E8C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2BB2976CBD7001E8C99 /* TYAccountViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD5A2BE2976CBE3001E8C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2B92976CBCD001E8C99 /* TYBasketViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD5A2BF2976CBEA001E8C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2B72976CBC2001E8C99 /* TYFavoritesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD5A2C02976CBF0001E8C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2B52976CBB7001E8C99 /* TYTrendyolGoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD5A2C12976CBF7001E8C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5A2B32976CBA4001E8C99 /* TYHomeFeedViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		2DF2CF402976C93B00412878 = {
@@ -155,7 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD5A2B62976CBB7001E8C99 /* TYTrendyolGoViewController.swift in Sources */,
+				2DD5A2B82976CBC2001E8C99 /* TYFavoritesViewController.swift in Sources */,
+				2DD5A2BC2976CBD7001E8C99 /* TYAccountViewController.swift in Sources */,
 				2DF2CF4D2976C93B00412878 /* AppDelegate.swift in Sources */,
+				2DD5A2BA2976CBCD001E8C99 /* TYBasketViewController.swift in Sources */,
+				2DD5A2B42976CBA4001E8C99 /* TYHomeFeedViewController.swift in Sources */,
 				2DF2CF4F2976C93B00412878 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
