@@ -16,6 +16,7 @@
 		2DF2CF4F2976C93B00412878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2CF4E2976C93B00412878 /* SceneDelegate.swift */; };
 		2DF2CF562976C93D00412878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2CF552976C93D00412878 /* Assets.xcassets */; };
 		2DF2CF592976C93D00412878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2CF572976C93D00412878 /* LaunchScreen.storyboard */; };
+		2DFCFB0D2976CC7000ACE385 /* TYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCFB0C2976CC7000ACE385 /* TYTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2DF2CF552976C93D00412878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DF2CF582976C93D00412878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DF2CF5A2976C93D00412878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFCFB0C2976CC7000ACE385 /* TYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		2DD5A2B22976CB90001E8C99 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				2DD5A2C22976CC13001E8C99 /* TabBar */,
 				2DD5A2B12976CB88001E8C99 /* Account */,
 				2DD5A2B02976CB7C001E8C99 /* Basket */,
 				2DD5A2AF2976CB6D001E8C99 /* Favorites */,
@@ -160,6 +163,14 @@
 				2DD5A2B32976CBA4001E8C99 /* TYHomeFeedViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2DD5A2C22976CC13001E8C99 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCFB0C2976CC7000ACE385 /* TYTabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		2DF2CF402976C93B00412878 = {
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFCFB0D2976CC7000ACE385 /* TYTabBarController.swift in Sources */,
 				2DD5A2B62976CBB7001E8C99 /* TYTrendyolGoViewController.swift in Sources */,
 				2DD5A2B82976CBC2001E8C99 /* TYFavoritesViewController.swift in Sources */,
 				2DD5A2BC2976CBD7001E8C99 /* TYAccountViewController.swift in Sources */,
@@ -405,7 +417,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Trendyol-VIPER/Info.plist";
+				INFOPLIST_FILE = "Trendyol-VIPER/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -435,7 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Trendyol-VIPER/Info.plist";
+				INFOPLIST_FILE = "Trendyol-VIPER/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
